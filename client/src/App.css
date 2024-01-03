@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background-image: url("https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
